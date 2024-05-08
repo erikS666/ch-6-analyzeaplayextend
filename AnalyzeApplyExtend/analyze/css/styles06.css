@@ -13,7 +13,8 @@ body, header, nav, main, footer, img, h1, h3, ul {
 
 /* Style rule for body and images */
 body {
-    background-color: #e5e0fa;
+    background-image: linear-gradient(#e5e0fa,#29157e);
+
 }
 
 img {
@@ -77,8 +78,15 @@ footer {
 }
 
 /* Media Query for Tablet Viewport */
-@media screen and (min-width: 481px), print {
+@media screen and (min-width:600px), print {
     
+    
+    /*tablet-desktop rules*/
+    .tablet-desktop  {
+
+        display: block;
+    }
+
     /* Tablet Viewport: Style rules for nav area */
     nav li {
         display: inline-block;
@@ -93,11 +101,20 @@ footer {
 
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 769px), print {
- 
+
+    /* rules for header*/
+
+    header { width: 25%;
+            float: left;
+
+    }
+
     /* Desktop Viewport: Style rules for nav */
     nav li {
         border-radius: 0;
     }
+
+    li a:hover {color: #4424d6;}
 
     nav li a {
         display: inline-block;
@@ -111,9 +128,27 @@ footer {
         overflow: auto;
     }
 
+    .col-conent{
+
+        width: 30%;
+        float: left;
+    }
+
     /* Desktop Viewport: Style rule for footer */
     footer {
         clear: left;
+    }
+
+}
+
+/*media query for large desktop vieport*/
+@media screen and (min-width: 1414px), print {
+    #container { top: 0%;
+        bottom: 0%;
+        left: auto;
+        right: auto;
+
+
     }
 
 }
