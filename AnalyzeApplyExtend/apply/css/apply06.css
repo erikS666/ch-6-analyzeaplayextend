@@ -47,7 +47,7 @@ footer {
 }
 
 /*media query for tabelt vieport*/ 
-@media screen and (min-width:4814px), print
+@media screen and (min-width:481px),print
 {
     article { width: 435;
         float: left;
@@ -57,5 +57,23 @@ footer {
 
     float:left
 }
+
+}
+
+/*media query for the desktop viewport*/
+@media screen and (min-width:900px),print {
+
+    article { width: 27%;
+        height: 140px;
+
+    }
+    
+    article:hover{ background-color:  #ffe5dc;
+        color: #a22c02;
+    
+    }
+    
+
+
 
 }
