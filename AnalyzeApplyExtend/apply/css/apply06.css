@@ -15,7 +15,7 @@ body, header, nav, main, footer, h1, div, article, h2 {
 body 
     	
     {
-        background: linear-gradient(#ffe5dc, #a22c02);
+        background: linear-gradient(to left, #ffe5dc, #a22c02);
         
     }
     

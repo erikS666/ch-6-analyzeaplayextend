@@ -39,6 +39,13 @@ main {
 }
 
 /* Gradient style rules */
+.gradient1 { background: linear-gradient(to right, #97afcb, #1a3e4c 25%);
+}
+.gradient2 { background: linear-gradient(to left, #d4f7ec, #448d74 90%); }
+
+.gradient3 { background: linear-gradient(to top left, #efddfd, #36065d); }
+
+.gradient4 { background: linear-gradient(#e6e6ff, #70dbdb, #ffffcc, #cc6699);} 
 
 
 /* Style rule for footer */
