@@ -45,3 +45,17 @@ footer {
 	text-align: center;
     color: #341509;
 }
+
+/*media query for tabelt vieport*/ 
+@media screen and (min-width:4814px), print
+{
+    article { width: 435;
+        float: left;
+        height: 160px;
+    }
+footer {
+
+    float:left
+}
+
+}
